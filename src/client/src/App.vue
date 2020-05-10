@@ -34,7 +34,7 @@
     </v-app-bar>
 
     <v-content>
-      <HelloWorld />
+      <router-view></router-view>
     </v-content>
   </v-app>
 </template>
@@ -45,13 +45,5 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 export default Vue.extend({
   name: "App",
-
-  components: {
-    HelloWorld
-  },
-
-  data: () => ({
-    //
-  })
 });
 </script>
