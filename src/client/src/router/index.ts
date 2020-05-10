@@ -2,6 +2,8 @@ import Vue from "vue";
 import VueRouter, { RouteConfig } from "vue-router";
 import Home from "../views/Home.vue";
 
+import layouts from '@/layouts';
+
 Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
@@ -24,7 +26,7 @@ const routes: Array<RouteConfig> = [
     name: "Login",
     component: () => import(/* webpackChunkName: "login" */ "../views/Login.vue"),
     meta: { 
-      layout: () => import(/* webpackChunkName: "layouts" */ "../layouts/empty.vue") 
+      layout: layouts.empty 
     }
   },
 ];
