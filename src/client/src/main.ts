@@ -8,6 +8,8 @@ import "material-design-icons-iconfont/dist/material-design-icons.css";
 
 Vue.config.productionTip = false;
 
+Vue.component('default-layout', () => import(/* webpackChunkName: "layouts" */ "@/layouts/default.vue") );
+
 new Vue({
   router,
   store,

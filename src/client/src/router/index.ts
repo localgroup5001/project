@@ -22,7 +22,10 @@ const routes: Array<RouteConfig> = [
   {
     path: "/login",
     name: "Login",
-    component: () => import(/* webpackChunkName: "login" */ "../views/Login.vue")
+    component: () => import(/* webpackChunkName: "login" */ "../views/Login.vue"),
+    meta: { 
+      layout: () => import(/* webpackChunkName: "layouts" */ "../layouts/empty.vue") 
+    }
   },
 ];
 
