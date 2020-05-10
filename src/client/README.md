@@ -1,9 +1,17 @@
 # client
 
+## Install vue cli
+npm i -g @vue/cli
+
+
 ## Project setup
 ```
 npm install
 ```
+
+## Run vue UI 
+vue ui
+
 
 ### Compiles and hot-reloads for development
 ```
