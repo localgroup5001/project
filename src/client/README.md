@@ -1,16 +1,14 @@
-# client
-
-## Install vue cli
+### Install vue cli
 ```
 npm i -g @vue/cli
 ```
 
-## Project setup
+### Project setup
 ```
 npm install
 ```
 
-## Run vue UI
+### Run vue UI
 ```
 vue ui
 ```
