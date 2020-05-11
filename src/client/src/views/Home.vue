@@ -1,12 +1,14 @@
 <template>
-  <div>
-    home
-  </div>
+    <chat />
 </template>
 
-<script>
+<script lang="ts">
+import Vue from 'vue';
+import Chat from '@/components/Chat';
 
-export default {
-  name: "Home",
-};
+export default Vue.extend({
+    components: {
+        Chat
+    }
+});
 </script>
